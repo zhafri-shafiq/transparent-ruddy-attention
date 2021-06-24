@@ -10,15 +10,14 @@ You may provide **additional documentation** on how you would continue with this
 
 You are required to build a simple fullstack web application that displays a list of movies and movie details.
 
-An existing application boilerplate (React + Node) already exists on Glitch, but you are free to modify it as you want to.
+Within this Glitch project is an existing application boilerplate (React + Node), but you are free to modify it as you want to.
 
 Feel free to also download the project and work on it in localhost if you prefer to.
 
 # Steps
 
-1. Access existing project at https://glitch.com/edit/#!/glistening-awake-dosa
-2. Click on `Remix to Edit` to start own code editor
-3. Start editing code within Glitch to complete this assignment
+1. Within Glitch, click on `Remix to Edit` to start own forked version of the code
+2. Start editing code within Glitch to complete this assignment
 
 # Details
 
