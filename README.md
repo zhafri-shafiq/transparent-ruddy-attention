@@ -1,6 +1,47 @@
-# Starter create-react-app and Express
+***Important note***:
 
-Glitch only serves content on one port. This is typically not an issue, unless you're trying to run both a webpack development server for front-end work and a back-end server in the same project, at the same time — you get one port for serving resources, but both the front-end and back-end servers each want their own port! This is a common scenario when you're building your front end with [create-react-app], and your back end with [Express].
+This assignment is meant to be completed within **a maximum of 2 hours**.
+
+Just attempt this assignment, and submit your code before **2 hours** is up, regardless of whether it is fully completed.
+
+You may provide **additional documentation** on how you would continue with this assignment if you were given more time.
+
+# Overview
+
+You are required to build a simple fullstack web application that displays a list of movies and movie details.
+
+An existing application boilerplate (React + Node) already exists on Glitch, but you are free to modify it as you want to.
+
+Feel free to also download the project and work on it in localhost if you prefer to.
+
+# Steps
+
+1. Access existing project at https://glitch.com/edit/#!/glistening-awake-dosa
+2. Click on `Remix to Edit` to start own code editor
+3. Start editing code within Glitch to complete this assignment
+
+# Details
+
+* The backend server should load data from the movies data file found in `server/movies_metadata.json`.
+* The backend server should expose APIs to the frontend to achieve the following:
+  * List movies
+  * Get single movie by ID
+* The frontend web application should display 2 different screens:
+  * List movies page (shown initially)
+    * Display the following fields (`title`, `tagline` and `vote_average` [calculated out of 10]) with repsonsive design in a user-friendly manner
+  * Display single movie page upon clicking movie in list page
+    * Display every field (`release_date` should be localized based on browser settings. `runtime` is calculated in minutes)
+
+# Code Submission
+
+1. Within Glitch, go to `Tools` > `Import and Export` > `Download Project`
+2. Email or upload to a public Github repository your code
+
+# Further Project Details (Optional)
+
+## Starter Project - create-react-app and Express
+
+This starter project runs both a webpack development server for front-end work and a back-end server in the same project, at the same time. This is a common scenario when you're building your front end with [create-react-app], and your back end with [Express].
 
 This starter app will get you on your way with this scenario!
 
