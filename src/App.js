@@ -1,8 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    async function getData() {
+      const response = await fetch('/api/movies');
+      const movies = await response.json();
+      console.log('movies: ', movies);
+    }
+    getData();
+  }, []);
   return (
     <div className="App">
       <header className="App-header">
@@ -18,6 +26,8 @@ function App() {
         >
           Learn React
         </a>
+        <p>Nice Movies:</p>
+        
       </header>
     </div>
   );

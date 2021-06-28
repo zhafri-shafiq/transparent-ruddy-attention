@@ -21,6 +21,12 @@ app.get("/api/ping", (request, response) => {
   response.send("pong!");
 });
 
+// A mock route to return some data.
+app.get("/api/movies", (request, response) => {
+  console.log("❇️ Received GET request to /api/movies");
+  response.json({ data: [{ id: 1, name: '1' }, { id: 2, name: '2' }] });
+});
+
 // Express port-switching logic
 let port;
 console.log("❇️ NODE_ENV is", process.env.NODE_ENV);
