@@ -1,13 +1,14 @@
-import React, { useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const [movies, setMovies] = useState([]);
   useEffect(() => {
     async function getData() {
       const response = await fetch('/api/movies');
-      const movies = await response.json();
-      console.log('movies: ', movies);
+      const payload = await response.json();
+      setMovies(payload.data);
     }
     getData();
   }, []);
@@ -27,6 +28,7 @@ function App() {
           Learn React
         </a>
         <p>Nice Movies:</p>
+        <p>{JSON.stringify(movies)}</p>
         
       </header>
     </div>
