@@ -27,9 +27,10 @@ Feel free to also download the project and work on it in localhost if you prefer
   * Get single movie by ID
 * The frontend web application should display 2 different screens:
   * List movies page (shown initially)
-    * Display the following fields (`title`, `tagline` and `vote_average` [calculated out of 10]) with repsonsive design in a user-friendly manner
+    * Display the following fields (`title`, `tagline` and `vote_average` [calculated out of 10]) with responsive design in a user-friendly manner (e.g. show 4 columns on a desktop but show only 1 column on a mobile device)
   * Display single movie page upon clicking movie in list page
     * Display every field (`release_date` should be localized based on browser settings. `runtime` is calculated in minutes)
+    * Display a button/link to return to list movies page
 
 # Code Submission
 
