@@ -27,15 +27,22 @@ Feel free to also download the project and work on it in localhost if you prefer
   * Get single movie by ID
 * The frontend web application should display 2 different screens:
   * List movies page (shown initially)
-    * Display the following fields (`title`, `tagline` and `vote_average` [calculated out of 10]) with responsive design in a user-friendly manner (e.g. show 4 columns on a desktop but show only 1 column on a mobile device)
+    * Display the following fields (`title`, `tagline` and `vote_average` [calculated out of 10]) with **responsive web design** (e.g. show 4 columns on a desktop but show only 1 column on a mobile device)
   * Display single movie page upon clicking movie in list page
     * Display every field (`release_date` should be localized based on browser settings. `runtime` is calculated in minutes)
     * Display a button/link to return to list movies page
 
+**Additional**
+
+* Any criteria not stated above may not result in bonus points
+* **Responsive web design** is explained here: [https://www.w3schools.com/html/html_responsive.asp](https://www.w3schools.com/html/html_responsive.asp)
+
 # Code Submission
 
 1. Within Glitch, go to `Tools` > `Import and Export` > `Download Project`
-2. Email or upload to a public Github repository your code
+2. Upload to a public Github repository or a cloud drive (e.g. Google Drive, OneDrive) your code, and email the shared link
+
+*Don't bother trying to email the code directly, because the email attachment will be blocked.*
 
 # Further Project Details (Optional)
 
