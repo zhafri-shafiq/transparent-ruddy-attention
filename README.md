@@ -34,7 +34,10 @@ Feel free to also download the project and work on it in localhost if you prefer
 
 **Additional**
 
-* Any criteria not stated above may not result in bonus points
+* Bonus points will be given out for additional features such as:
+  * Implementing css framework such as Tailwind, etc.
+  * Implementing use of database using a free service such as Firebase Cloud Firestore or Heroku Postgres, and serve data from the database instead of the movies data file
+  * Implementing a CI pipeline 
 * **Responsive web design** is explained here: [https://www.w3schools.com/html/html_responsive.asp](https://www.w3schools.com/html/html_responsive.asp)
 
 # Code Submission
