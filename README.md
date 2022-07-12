@@ -34,10 +34,11 @@ Feel free to also download the project and work on it in localhost if you prefer
 
 **Additional**
 
-* Bonus points will be given out for additional features such as:
-  * Implementing css framework such as Tailwind, etc.
-  * Implementing use of database using a free service such as Firebase Cloud Firestore or Heroku Postgres, and serve data from the database instead of the movies data file
-  * Implementing a CI pipeline 
+* **Bonus points** will be given out for additional features such as:
+  * Using Typescript instead of Javascript
+  * Implementing a css framework such as Tailwind, SASS, etc
+  * Implementing the use of a database (possibly with a free service such as Firebase Cloud Firestore or Heroku Postgres) and consume data from the database instead of the movies data file
+  * Implementing a CI pipeline (GitHub Actions / GitLab CI/CD / Bitbucket Pipelines) that can successfully run publicly in an open-source GitHub/GitLab/Bitbucket public git repository
 * **Responsive web design** is explained here: [https://www.w3schools.com/html/html_responsive.asp](https://www.w3schools.com/html/html_responsive.asp)
 
 # Code Submission
