@@ -10,9 +10,11 @@ You may provide **additional documentation** on how you would continue with this
 
 You are required to build a simple fullstack web application that displays a list of movies and movie details.
 
-Within this Glitch project is an existing application boilerplate (React + Node), but you are free to modify it as you want to.
+Within this Glitch project is an existing application boilerplate (React + Node.js), but you are free to modify it or use any other application boilerplate.
 
-Feel free to also download the project and work on it in localhost if you prefer to.
+Any other frameworks can also be used as long your solution is fully Typescript/Javascript based.
+
+Feel free to also download the project and work on it in localhost if you prefer so.
 
 # Steps
 
@@ -44,7 +46,7 @@ Feel free to also download the project and work on it in localhost if you prefer
 # Code Submission
 
 1. Within Glitch, go to `Tools` > `Import and Export` > `Download Project`
-2. Upload to a public Github repository or a cloud drive (e.g. Google Drive, OneDrive) your code, and email the shared link
+2. Upload your code to a public GitHub repository or your archived code to a cloud drive (e.g. Google Drive, OneDrive) and email the GitHub repository URL or share link
 
 *Don't bother trying to email the code directly, because the email attachment will be blocked.*
 
