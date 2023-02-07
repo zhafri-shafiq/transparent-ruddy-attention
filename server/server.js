@@ -12,7 +12,38 @@ app.get("/api/ping", (request, response) => {
 // A mock route to return some data.
 app.get("/api/movies", (request, response) => {
   console.log("❇️ Received GET request to /api/movies");
-  response.json({ data: [{ id: 1, name: '1' }, { id: 2, name: '2' }] });
+  let movies = [];
+  const fs = require('fs');
+  try {
+    const jsonString = fs.readFileSync(require('path').resolve(__dirname, './movies_metadata.json'));
+    movies = JSON.parse(jsonString);
+  } catch (err) {
+    console.log(err);
+    return;
+  }
+
+  response.json({ data: movies });
+});
+
+// A mock route to return some data.
+app.get("/api/movies/:movieId", (request, response) => {
+  console.log("❇️ Received GET request to /api/movies/:movieId");
+  let movies = [];
+  let movie = null;
+  const fs = require('fs');
+  try {
+    const jsonString = fs.readFileSync(require('path').resolve(__dirname, './movies_metadata.json'));
+    movies = JSON.parse(jsonString);
+    movie = movies.filter(x => x.id == request.params.movieId)
+    if (movie.length) {
+      movie = movie[0]
+    }
+  } catch (err) {
+    console.log(err);
+    return;
+  }
+
+  response.json({ data: movie });
 });
 
 // Express port-switching logic
